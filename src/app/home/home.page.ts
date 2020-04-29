@@ -8,12 +8,14 @@ import { PhotosService } from './photos.service';
 })
 export class HomePage implements OnInit {
 
-  photos: any;
-  
+  photos = [];
+
   constructor( private photoService: PhotosService ) {}
 
   ngOnInit() {
-    this.photos = this.photoService.getPhotos();
+    this.photoService.getPhotos().subscribe( resp => {
+      this.photos = resp;
+    });
   }
 
 }

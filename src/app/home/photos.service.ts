@@ -10,7 +10,7 @@ export class PhotosService {
 
 
   getPhotos() {
-    return this.http.get('https://jsonplaceholder.typicode.com/photos?_limit=20');
+    return this.http.get<any>('https://jsonplaceholder.typicode.com/photos?_limit=20');
   }
 
 }

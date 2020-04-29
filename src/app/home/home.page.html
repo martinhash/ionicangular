@@ -7,5 +7,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
- 
+  <ion-list>
+    <ion-card *ngFor="let item of photos">
+      <ion-img [src]="item.thumbnailUrl"></ion-img>
+      <ion-card-content>
+        <p>{{item.title}}</p>
+        <p>{{item.albumId}}</p>
+        <a [href]="item.url" target="_blank">{{item.url}}</a>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
 </ion-content>
