@@ -1,4 +1,4 @@
-### :game_die: Lottery Games Online .net  in Angular 9 :game_die:
+### :globe_with_meridians: Ionic Tutorial App with Angular and Android Studio :globe_with_meridians:
 
 All features created from scratch, without UI libraries.
 
