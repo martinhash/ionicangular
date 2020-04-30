@@ -27,7 +27,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```sh
    ionic serve
 ```
-Project is running at http://localhost:8100
+
+## :star2: Open in Android Studio
+
+```sh
+   ionic build
+   npx cap open android
+```
+Now this app open at Android Studio, just run a emulator device.
+
 
 ## Authors
 
