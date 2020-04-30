@@ -22,13 +22,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    npm i
 ```
 
-## :star2: Running in local
+## :snowflake: Running in local
 
 ```sh
    ionic serve
 ```
 
-## :star2: Open in Android Studio
+## :snowflake: Open in Android Studio
 
 ```sh
    ionic build
